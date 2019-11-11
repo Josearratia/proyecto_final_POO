@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="200.0" prefWidth="320.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="com.proyecto_final.FXMLController">
+  <children>
+    <Label layoutX="47.0" layoutY="26.0" text="Sistema de creacion de horarios de la UPV" />
+    <PasswordField fx:id="password" layoutX="58.0" layoutY="102.0" prefWidth="200.0" promptText="Contraseña" text="" />
+    <TextField fx:id="Usuario" layoutX="60.0" layoutY="68.0" prefWidth="200.0" promptText="Usuario" />
+    <Button fx:id="btn_inicio" layoutX="101.0" layoutY="141.0" mnemonicParsing="false" prefHeight="21.999908447265625" prefWidth="115.0" text="Inicio de sesion" />
+  </children>
+</AnchorPane>
