@@ -9,8 +9,8 @@
 <AnchorPane id="AnchorPane" prefHeight="200.0" prefWidth="320.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="com.proyecto_final.controlador.FXML_Controlador_Inicio_de_sesion">
   <children>
     <Label layoutX="47.0" layoutY="26.0" text="Sistema de creacion de horarios de la UPV" />
-    <TextField fx:id="Usuario" layoutX="60.0" layoutY="68.0" prefWidth="200.0" promptText="Usuario" />
-    <PasswordField fx:id="password" layoutX="58.0" layoutY="102.0" prefWidth="200.0" promptText="Contraseña" text="" />
+    <TextField fx:id="Usuario" layoutX="60.0" layoutY="68.0" prefWidth="200.0" promptText="Usuario" text="admin" />
+    <PasswordField fx:id="password" layoutX="58.0" layoutY="102.0" prefWidth="200.0" promptText="Contraseña" text="*4ACFE3202A5FF5CF467898FC58AAB1D615029441" />
     <Button fx:id="btn_inicio" layoutX="101.0" layoutY="141.0" mnemonicParsing="false" prefHeight="21.999908447265625" prefWidth="115.0" text="Inicio de sesion" />
   </children>
 </AnchorPane>

@@ -3,10 +3,7 @@ import java.net.URL;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ResourceBundle;
-import java.util.logging.Level;
-import java.util.logging.Logger;
 import javafx.event.ActionEvent;
-import javafx.event.EventHandler;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.Button;
@@ -45,7 +42,7 @@ public class FXML_Controlador_Inicio_de_sesion implements Initializable {
                             try {
                                 conn.close();
                                 Controlador_De_Stages menu = new Controlador_De_Stages();
-                                conn.exit();
+                                conn.exit();FXML_Controlador_Menu.id_user = temp_user; FXML_Controlador_Menu.tipo_user = temp_tipo;  
                                 menu.menu((Stage) btn_inicio.getScene().getWindow());
                             } catch (Exception ex) {
                             }

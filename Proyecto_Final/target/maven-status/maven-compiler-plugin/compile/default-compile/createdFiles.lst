@@ -1,4 +1,6 @@
 com\proyecto_final\controlador\coneccion.class
 com\proyecto_final\MainApp.class
+com\proyecto_final\controlador\FXML_Controlador_Menu.class
 com\proyecto_final\controlador\Controlador_De_Stages.class
+com\proyecto_final\controlador\FXML_Controlador_Disponibilidad.class
 com\proyecto_final\controlador\FXML_Controlador_Inicio_de_sesion.class

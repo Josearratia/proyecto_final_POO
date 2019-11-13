@@ -30,4 +30,14 @@ public class Controlador_De_Stages extends Application{
         menu.initStyle(StageStyle.UNIFIED);
         menu.show();
     }
-}
+   
+   public void disponibilidad(Stage OldWindows) throws Exception{
+       OldWindows.close();
+       root = FXMLLoader.load(getClass().getResource("/fxml/Disponibilidad.fxml"));
+       Stage disponibilidad = new Stage();
+       disponibilidad.setTitle("Disponibilidad");
+       disponibilidad.setScene(new Scene(root));
+       disponibilidad.initStyle(StageStyle.UTILITY);
+       disponibilidad.show();       
+   }
+} 
